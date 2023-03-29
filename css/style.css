@@ -1,0 +1,60 @@
+@charset "utf-8";
+body {
+    background-image: url(../img/unsplash_7EbGkOm8pWM.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.wrapper {
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+}
+.contents {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+h2 {
+    font-family: “Inter”;
+    font-style: normal;
+    font-weight: 200;
+    text-align: center;
+    color: #fff;
+}
+.topic-style {
+    padding-bottom: 20px;
+}
+.number-style {
+    padding-bottom: 60px;
+}
+.topic-style,
+.number-style {
+    color: #fff;
+    text-align: center;
+    font-weight: bold;
+    width: 100vw;
+}
+button {
+    background-color: #5B42F3;
+    color: #fff;
+    border-radius: 100px;
+    padding: 15px 30px;
+    display: block;
+    margin: auto;
+}
+/* title-page */
+.catch-frase {
+    width: 80vw;
+    text-align: center;
+    color: #fff;
+}
+.game-link {
+    color: #fff;
+    background-color: #5B42F3;
+    border-radius: 10px;
+    padding: 20px;
+    text-decoration: none;
+    width: 100vw;
+    text-align: center;
+}
